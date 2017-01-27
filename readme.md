@@ -3,7 +3,7 @@ Sometimes the search index may not be updated under the following conditions:
 - the `Publishing.PublishEmptyItems` setting is set to `true`
 - additional system languages are used
 - the published item has a `Shared` field
-<br/>
+<br/><br/>
 This patch overrides the standard `SitecoreItemCrawler` to resolve these issues.
 
 ## License  
